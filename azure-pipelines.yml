@@ -1,6 +1,7 @@
 pool:
   vmImage: ubuntu-16.04
 trigger:
+  //run pipeline
   - master
 steps:
   - task: Npm@1
