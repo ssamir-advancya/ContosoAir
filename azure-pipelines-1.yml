@@ -11,7 +11,7 @@ steps:
   - script: |
       npm install
       npm test
-    displayName: 'Run unit tests-23 nov'
+    displayName: 'Run unit tests-23 novomber'
     continueOnError: true
   - task: PublishTestResults@2
     displayName: 'Publish Test Results'
